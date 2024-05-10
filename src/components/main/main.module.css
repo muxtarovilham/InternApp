@@ -1,0 +1,485 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(234, 234, 234);
+    padding-bottom: 21px;
+    gap: 21px;
+}
+.container button{
+    cursor: pointer;
+}
+.leave{
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+}
+.leave img{
+    width: 100%;
+    height: 600px;
+    filter: contrast(60%);
+}
+.wordz{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 21px;
+    padding-bottom: 14px;
+}
+.wordz p{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+.wordz small{
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFA500;
+}
+.wordz h1{
+    width: 60%;
+    font-weight: 800;
+    font-size: 64px;
+    color: white;
+}
+.scroll{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.scroll img {
+    width: 32px;
+    height: 32px;
+}
+.wordz button{
+    width: 218px;
+    height: 85px;
+    border-radius: 8px;
+    background-color: #0336FF;
+    color: white;
+    font-size: 21px;
+    border: none;
+}
+.aboutme{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 90%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: white;
+}
+.about h3{
+    font-weight: 700;
+    font-size: 29px;
+}
+.albums{
+    width: 98%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.about img{
+    width: 80%;
+    height: 80%;
+}
+.about p{
+    width: 90%;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+.about button{
+    width: 182px;
+    height: 71px;
+    border-radius: 8px;
+    background-color: #0336FF;
+    color: white;
+    border: none;
+}
+.about ul{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 21px;
+}
+.about ul li{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.caravan{
+    width: 90%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+    background-color: #7591ff;
+    position: relative;
+}
+.years{
+    width: 100%;
+    height: 77%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    position: absolute;
+    padding: 7px 21px 7px 21px;
+    color: white;
+}
+.years p{
+    font-weight: 500;
+    font-size: 24px;
+}
+.years h5{
+    font-weight: 700;
+    font-size: 31px;
+}
+.turns{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+}
+.turnimg{
+    width: 40px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.turnimg img{
+    width: 10px;
+    height: 12px;
+}
+.georgia img{
+    width: 100px;
+    height: 80px;
+}
+.georgia{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 7px;
+}
+.georgia p{
+    font-size: 18px;
+    font-weight: 500;
+    display: contents;
+    color: #0A0909;
+}
+.georgia h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.wordsz{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 7px;
+}
+.facebook{
+    width: 98%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0px 7px 0px;
+}
+.facebook button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    width: 100%;
+    height: 71px;
+    border-radius: 7px;
+    background-color: #4056AC;
+}
+.facebook button img{
+    width: 16px;
+    height: 32px;
+}
+.likes{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 14px;
+}
+.likes p{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.traveler{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 14px;
+}
+.traveler img{
+    width: 100%;
+    height: 50%;
+}
+.traveler p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.traveler h1{
+    font-weight: 600;
+    font-size: 31px;
+    padding: 7px;
+}
+.traveler small{
+    font-weight: 500;
+    font-size: 24px;
+    padding: 7px;
+}
+.malaysia{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+.penang{
+    display: flex;
+    gap: 7px;
+}
+.alex{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 14px;
+}
+.alex p{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+}
+.alex h1{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.purchase{
+    width: 100%;
+    min-height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.purchase img{
+    width: 100%;
+    height: auto;
+}
+.purchasewords{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+    text-align: center;
+    color: white;
+}
+.purchasewords h2{
+    font-size: 30px;
+    font-weight: 700;
+    display: ruby;
+}
+
+.purchasewords h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFA500;
+    text-decoration: underline 2px;
+}
+.purchase button{
+    width: 182px;
+    height: 71px;
+    border-radius: 7px;
+    background-color: #0336FF;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.collage{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.collage img{
+    width: 260px;
+    height: 296px;
+}
+.collage button{
+    position: absolute;
+    width: 201px;
+    height: 52px;
+    background-color: #0336FF;
+    font-weight: 600;
+    color: white;
+    border-radius: 7px;
+    border: navajowhite;
+}
+
+.join{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.join h2{
+    color: #0336FF;
+    font-size: 30px;
+    font-weight: 700;
+}
+.join form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.join input{
+    width: 66%;
+    height: 66px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding-left: 7px;
+}
+.join button{
+    width: 33%;
+    height: 66px;
+    background-color: #0336FF;
+    border: navajowhite;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 313px) {
+
+.wordz p{
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 444px) {
+    .years p{
+        display: none;
+    }
+    .years h5{
+        font-size: 21px;
+    }
+    .malaysia{
+        flex-direction: column;
+    }
+    .join form{
+        gap: 7px;
+        flex-direction: column;
+    }
+    .join form button{
+        width: 66%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .georgia img{
+        width: 80%;
+        height: auto;
+    }
+    .georgia{
+        flex-direction: column;
+    }
+    .purchase button{
+        width: 66%;
+        height: 66px;
+    }
+   .purchasewords h2{
+    display: none;
+   }
+  }
+
+  @media only screen and (max-width: 777px) {
+    .wordz h1{
+        font-size: 33px;
+    }
+    .wordz p{
+        font-size: 16px;
+    }
+  }
+
+@media only screen and (max-width: 1180px) {
+    .turns {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1333px) {
+    .facebook button img{
+        display: none;
+    }
+  }
